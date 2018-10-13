@@ -1,0 +1,13 @@
+app-root {
+    display: flex;
+    justify-content: center;
+}
+
+mat-card {
+    text-align: center;
+    width: 40%;
+}
+
+mat-card-content {
+    font-size: 45px;
+}
