@@ -1,10 +1,10 @@
 {
-  "name": "settlement-generator",
-  "version": "0.0.0",
+  "name": "idan-shachar-conversations",
+  "version": "3.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "node app/server.js",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
