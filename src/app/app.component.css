@@ -11,3 +11,18 @@ mat-card {
 mat-card-content {
     font-size: 45px;
 }
+
+#easter{
+    height: 20px;
+}
+
+#image {
+    display: none;
+    height: 300px;
+    width: 450px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}

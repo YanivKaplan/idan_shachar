@@ -1,15 +1,24 @@
-<mat-card>
-    <mat-card-title>
-        כשיש חיבור, אז יש חיבור
-    </mat-card-title>
-    <mat-card-content>
-        {{idan}}
-    </mat-card-content>
-    <mat-card-content>
-        {{shachar}}
-    </mat-card-content>
-    <button (click)="showNext()" mat-fab mat-primary>
-        לחץ עלי
-    </button>
-</mat-card>
+<div id="container">
+    <mat-card>
+        <mat-card-title>
+            כשיש חיבור, אז יש חיבור
+        </mat-card-title>
+        <mat-card-content>
+            {{idan}}
+        </mat-card-content>
+        <mat-card-content>
+            {{shachar}}
+        </mat-card-content>
+        <button (click)="showNext()" mat-fab mat-primary>
+            לחץ עלי
+        </button>
+    </mat-card>
+    <div>
+        <button id="easter" (click)="togglePicture()">
+            Teaser for the brave
+        </button>
+        <input type="image" id="image" src="../assets/Horror.jpeg" />
+    </div>
+</div>
+
 
